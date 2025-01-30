@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+   
+}
+
+nav .logo img{
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* position: fixed; */
+}
+
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li {
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(back1.jpg);
+    background-size: cover;
+    color: white;
+    padding: 300px 0;
+    text-align: center;
+    background-position: center;
+}
+
+.hero-buttons .leg2 {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hero-buttons .leg1 {
+    background-color: rgb(175, 175, 22);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature-card img{
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;
+}
+
+.features h2{
+    font-size: 45px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20PX;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.feature-card img{
+    background-image: 5px;
+}
+
+.course {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    margin-top: 30px;
+}
+
+.course-card h4{
+    color: gray;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.course-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px;
+    border-radius: 5px;
+    width:30%;
+}
+
+.course-card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 0px;
+    padding-left: 20px;
+}
+
+.regist{
+    display: flex;
+    background-image: url(images/c5.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: 0 -300px;
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 2px;
+    font-size: x-large;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.regist p {
+    color: white;
+    /* display: flex; */
+   padding-bottom: 50px;
+}
+
+.regist h1{
+    color: white;
+    /* display: flex; */
+    padding-bottom: 50px;
+}
+
+.waktu{
+    display: flex;
+    padding-top: 150px;
+    line-height: 35px;
+}
+
+.waktu div{
+    background-color: rgba(206, 204, 204, 0.452);
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.form{
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin-top: 100px;
+    height: 400px;
+    margin-right: 200px;
+}
+
+.form input{
+	margin: 15px 0;
+	padding: 15px 10px;
+	border: 1px solid rgb(84, 40, 241);
+	outline: none;
+}
+
+.form input::placeholder{
+	color: #413c3c;
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+.form .btn{
+	margin-top: 20px;
+}
+
+.form a.yellow{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 13px 35px;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	color: #fff;
+	background: #fdc938;
+	transition: 0.3s ease;
+}
+
+.form a.yellow:hover{
+	color: rgb(21, 21, 100);
+	background: #fff;
+}
+
+.container61 {
+    text-align: center;
+    width: 100vw;
+    margin: 20px;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #ffa500; */
+}
+
+.container61 h1 {
+    /* font-size: 24px; */
+    color: #333;
+    text-align: center;
+    margin-top: 100px;
+    display: block;
+}
+
+.container61 p {
+    /* font-size: 16px; */
+    color: #777;
+    text-align: center;
+    padding: 18px;
+}
+
+.experts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center;
+    text-align: center; */
+    margin-top: 20px;
+    padding: 60px;
+}
+
+/* .expert img{
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+
+} */
+
+.expert {
+    background: #fff;
+    border-radius: 10px;
+    padding: 80px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    /* width: 10vw 10vw 10vw 10vw; */
+    background-color: beige;
+}
+
+.expert img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.expert h6 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.expert p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+}
+
+.footer {
+    background-color: #101c32;
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .column {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer .column h3 {
+    margin-bottom: 15px;
+}
+
+.footer .column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .column ul li {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.footer .column-newsletter input[type="email"] {
+    padding: 15px 15px;
+    width: calc(100% - 100px);
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.column-newsletter button {
+    padding: 15px 15px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    font-weight: 600px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.column-newsletter .leg1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.footer .copyright p{
+    text-align: center;
+}
+
+.column-newsletter p{
+    color: grey;
+}
+
+#menu-btn{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#menu-close{
+    display: none;
+}
+
+@media(max-width : 800px){
+    #menu-btn{
+        display: initial;
+    }
+
+    #menu-close{
+        display: initial;
+        font-size: 1.6rem;
+        /* color: white; */
+        padding: 30px 0 20px 20px;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: -220px;
+        background-color: rgba(93, 134, 170, 0.712);
+        border: 1px solid grey;
+        width: 220px;
+        backdrop-filter: blur(4.5);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.6s;
+    }
+
+    nav ul.active{
+        right: 0;
+    }
+
+    nav ul li{
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+
+    nav ul li a{
+        color: whitesmoke;
+    }
+}
